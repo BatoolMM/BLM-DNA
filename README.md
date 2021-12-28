@@ -1,22 +1,6 @@
-# EVI1-DNMT3
-Molecular dynamics study for the interaction between EVI1-DNMT3
+# BLM
+Molecular dynamics study for the interaction between BLM-DNA in Blooms syndrom
 
-## Creating the DNMT3 Structure
+## Modeller used to fill in the missing residues 
 
-We used AlphaFold for accuracy > 70
-
-https://alphafold.ebi.ac.uk/entry/Q9Y6K1
-
-Extracted residues 474-912
-
-`select st, b > 70`
-
-`select st, i. 474-912`
-
-Saved it and manipulated in PyMOL as PDBx/mmCIF
-
-- Write connect reords for all bonds
-
-- Retain segment identifier and atoms ids
-
-- Write HEADER for every object
+We used 4O3M and FoldX to repair and muatate the structure
