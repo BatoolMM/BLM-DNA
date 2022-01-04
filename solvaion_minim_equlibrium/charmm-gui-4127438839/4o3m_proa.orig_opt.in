@@ -1,0 +1,14 @@
+data_directory        /home/charmm-gui/local/GalaxyFill/data
+top_type              polarh
+print_level           30
+energy_print_level    30
+read_multiple_models  yes
+fix_type              all
+infile_pdb            4o3m_proa.orig_init.pdb
+outfile_prefix        4o3m_proa.orig_opt
+ULR                   L L  0.00   160   168
+ULR                   L L  0.00   372   374
+ULR                   L L  0.00   430   432
+ULR                   L L  0.00   454   465
+ULR                   L L  0.00   556   567
+ULR                   L T  0.00   653   659

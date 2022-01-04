@@ -1,0 +1,43 @@
+Check global input consistency...
+Done.
+- Finished with read_parameters.
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph.in
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph_nt.in
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph_ct.in
+- Finished with read_topology_geo.
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_eng_charmm22ph.in
+  Num_ref_res =    77
+- Finished with read_topology_eng.
+- Rotamer setup
+  Reading rotamer library file  /home/charmm-gui/local/GalaxyFill/data/bbdep02.May.sortlib
+  Total number of rotamers in rot lib file      466829
+  Reading infile_chi_def file  /home/charmm-gui/local/GalaxyFill/data/def_chi.in
+  Random seed =     347632
+Task: local_optimize
+ - local_optimize_relax: no
+ - local_optimize_sidechain: no
+============================================================
+  Reading sequence from pdb file: 4o3m_proa.orig_init.pdb
+    There seems to be break in chain.  168 A PHE   169 A ARG  C-N bond length is     1.710
+    There seems to be break in chain.  567 A ALA   568 A LYS  C-N bond length is    41.682
+  Reading pdb file: 4o3m_proa.orig_init.pdb
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+- Fix type "all" activated: All atoms except ULR/USC are fixed.
+- Energy: MM energy activated.
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+Before optimization, 4o3m_proa.orig_init.pdb ENERGY.0     681059.834
+Before optimization, 4o3m_proa.orig_init.pdb ENERGY.1     681059.834        0.000        0.000
+Before optimization, 4o3m_proa.orig_init.pdb ENERGY.2.0 602138.492   1556.722   1971.252    280.609  75112.759      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+After  optimization, 4o3m_proa.orig_init.pdb ENERGY.0       3074.928
+After  optimization, 4o3m_proa.orig_init.pdb ENERGY.1       3074.928        0.000        0.000
+After  optimization, 4o3m_proa.orig_init.pdb ENERGY.2.0    497.471    576.152    202.819    124.909   1673.577      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+------------------------------------------------------------
+Total User Time =     17.522 sec
+           0 dy  0 hr  0 min 17.522 sec
+------------------------------------------------------------
