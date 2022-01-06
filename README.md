@@ -14,3 +14,5 @@ We modelled missing residues:
 - PROA	1093 - 1104
 - PROA	1195 - 1206
 - PROA	1292 - 1298	This is C-terminal missing residues.
+
+We use CHARMM36m for the system 
