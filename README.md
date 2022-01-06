@@ -7,7 +7,7 @@ We used 4O3M and kept both Ca, ADP and DNA strands in the structure.
 
 We used FUse CHARMM General Force Field to generate CHARMM top & par files (using ParamChem service) for ADP
 
-We modelled Model missing residues 
+We modelled missing residues:
 - PROA	799 - 807
 - PROA	1011 - 1013
 - PROA	1069 - 1071
