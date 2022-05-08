@@ -3,7 +3,7 @@ Molecular dynamics study for the interaction between BLM-DNA in Blooms syndrom
 
 ## Modeller used to fill in the missing residues 
 
-We used 4O3M and kept both Ca, ADP and DNA strands in the structure.
+We used 4O3M and DNA strands in the structure (without both Ca, ADP).
 
 We used FUse CHARMM General Force Field to generate CHARMM top & par files (using ParamChem service) for ADP
 
@@ -15,4 +15,4 @@ We modelled missing residues:
 - PROA	1195 - 1206
 - PROA	1292 - 1298	This is C-terminal missing residues.
 
-We use CHARMM36m for the system 
+We use CHARMM36m for the system with WYF parameter for cation-pi interactions
