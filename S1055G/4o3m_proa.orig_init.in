@@ -1,0 +1,15 @@
+data_directory    /home/charmm-gui/local/GalaxyFill/data
+top_type          polarh
+!
+print_level       30
+!
+infile_pdb        4o3m_proa.orig_init.pdb
+outfile_prefix    4o3m_proa.orig_init
+fix_atom_file     4o3m_proa.orig_init_init.fix
+!
+close_loop    160  168
+close_loop    372  374
+close_loop    430  432
+close_loop    454  465
+close_loop    556  567
+close_loop    653  659
