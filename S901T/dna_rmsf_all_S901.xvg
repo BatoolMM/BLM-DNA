@@ -1,0 +1,44 @@
+# This file was created Tue Sep 20 19:19:34 2022
+# Created by:
+#                   :-) GROMACS - gmx rmsf, VERSION 5.1.4 (-:
+# 
+# Executable:   /opt/gridware/depots/e2b91392/el7/pkg/apps/gromacs/5.1.4/gcc-5.5.0+openmpi-1.10.7+fftw3_float-3.3.4+fftw3_double-3.3.4/bin/gmx
+# Data prefix:  /opt/gridware/depots/e2b91392/el7/pkg/apps/gromacs/5.1.4/gcc-5.5.0+openmpi-1.10.7+fftw3_float-3.3.4+fftw3_double-3.3.4
+# Command line:
+#   gmx rmsf -s md_400ns.tpr -f md_fit_BLM_S901.xtc -n index.ndx -o dna_rmsf_all_S901.xvg -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    2   0.4779
+    3   0.1610
+    4   0.0990
+    5   0.1063
+    6   0.1021
+    7   0.1129
+    8   0.1273
+    9   0.1263
+   10   0.1227
+   11   0.1436
+   12   0.2726
+   13   0.6031
+    4   0.3972
+    5   0.2481
+    6   0.1717
+    7   0.1501
+    8   0.1394
+    9   0.1430
+   10   0.1372
+   11   0.1185
+   12   0.1099
+   13   0.1092
+   14   0.1077
+   15   0.1490
+   16   0.1040
+   17   0.1225
+   18   0.1402
+   19   0.3022
